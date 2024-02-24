@@ -407,10 +407,15 @@ table tr{
     bottom: 25%;
   }
   .aboutContainer {
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
     align-items: center;
-    text-align: initial;
+    text-align:center;
+    width: 700px;
   }
+
+
+  
+
   .skillsContainer {
     grid-template-columns: 0.7fr;
     justify-content: center;
@@ -470,10 +475,14 @@ table tr{
   }
   .aboutContainer {
     padding-top: 2rem;
+    
   }
   .aboutImg img {
     width: 300px;
   }
+
+ 
+
   .skillsContainer {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
